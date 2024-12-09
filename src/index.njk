@@ -18,8 +18,8 @@
       </div>
     {% endfor %}
   </div>
-  <h2>Bookstores loop</h2>
-  <p>This loops through data that came from a Google Sheet example.</p>
+  <h2>Bookstores in Austin</h2>
+  <p>These are my favorites.</p>
   <hr>
   {% for store in bookstores.stores %}
     <h3><a href="{{ store.url }}" target="_blank">{{ store.name }}</a></h3>
