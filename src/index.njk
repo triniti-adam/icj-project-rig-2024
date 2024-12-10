@@ -18,15 +18,14 @@
         <h3><a href="queen/{{ queen.slug }}.html">{{ queen.name }}</a></h3>
       </div>
     {% endfor %}
-  </div>
   <h2>Fun Facts</h2>
   <p>These are my favorites.</p>
   <hr>
   {% for queen in queen.queen %}
-    <h3>{{ queen.name }}</h3>
-    <p>Born: {{ queen.birthplace}}</p> 
-    <p>Instruments: {{ queen.instruments }}</p>
-    <hr>
+  <h3>{{ queen.name }}</h3>
+  <p>Born: {{ queen.birthplace}}</p> 
+  <p>Instruments: {{ queen.instruments }}</p>
+  <hr>
   {% endfor %}
   <p>*Images and information were acquired and used from the sample content from the other <a href="https://utdata.github.io/icj-class/fp-00-intro.html" target="_blank">ICJ Class</a>.</p>
 </div>
