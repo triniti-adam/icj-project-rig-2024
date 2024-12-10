@@ -22,10 +22,12 @@
   <h2>Fun Facts</h2>
   <p>These are my favorites.</p>
   <hr>
-  {% for store in bookstores.stores %}
-    <h3><a href="{{ store.url }}" target="_blank">{{ store.name }}</a></h3>
-    <p>{{ store.address}}, {{ store.city }}, {{ store.state }} {{ store.zip }}</p>
+  {% for queen in queen.queen %}
+    <h3>{{ queen.name }}</h3>
+    <p>{{ queen.birthplace}}</p> 
+    <p>{{ queen.instruments }}</p>
     <hr>
   {% endfor %}
+  <p>*Images were acquired and used from the sample content from the other <a href="https://utdata.github.io/icj-class/fp-00-intro.html" target="_blank">ICJ Class</a>.</p>
 </div>
 {% endblock %}
