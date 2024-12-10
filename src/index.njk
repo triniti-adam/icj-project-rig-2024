@@ -12,14 +12,14 @@
   <h2>Members of Queen</h2>
   <p>Learn more about the members of Queen.</p>
   <div class="row">
-    {% for book in library.books %}
+    {% for queen in queen.queen %}
       <div class="col">
-        <img src="img/{{ book.slug }}.jpg" alt="" class="img-fluid">
-        <h3><a href="books/{{ book.slug }}.html">{{ book.title }}</a></h3>
+        <img src="img/{{ queen.image }}.jpg" alt="Photo of {{ queen.name }}" class="img-fluid">
+        <h3><a href="queen/{{ queen.slug }}.html">{{ queen.name }}</a></h3>
       </div>
     {% endfor %}
   </div>
-  <h2>Bookstores in Austin</h2>
+  <h2>Fun Facts</h2>
   <p>These are my favorites.</p>
   <hr>
   {% for store in bookstores.stores %}

@@ -11,8 +11,8 @@
             Members
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            {% for book in library.books %}
-            <li><a class="dropdown-item" href="{{ relative_path }}books/{{ book.slug}}.html">{{ book.title }}</a></li>
+            {% for queen in queen.queen %}
+            <li><a class="dropdown-item" href="{{ relative_path }}books/{{ queen.slug}}.html">{{ queen.name }}</a></li>
             {% endfor %}
           </ul>
         </li>
