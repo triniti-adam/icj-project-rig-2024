@@ -6,9 +6,9 @@
       "name": "library"
     },
     {
-      "fileId": "1gDwO-32cgpBDn_0niV0iu6TqQTaRDr4nmSqnT53magY",
+      "fileId": "1QwmgNCyY32WDlq7GE_01Se25802n1bgUZdPCB7af7Cs",
       "type": "sheet",
-      "name": "bookstores"
+      "name": "queen"
     }
     ,
     {
@@ -19,11 +19,11 @@
   ],
   "to_bake": [
     {
-      "template": "bake-book",
-      "data": "library",
-      "array": "books",
+      "template": "bake-queen",
+      "data": "queen",
+      "array": "queen",
       "slug": "slug",
-      "path": "books"
+      "path": "queen"
     }
   ]
 }
